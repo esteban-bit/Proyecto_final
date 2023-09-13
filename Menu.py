@@ -138,12 +138,12 @@ hr {
 }
 
 """
+# Aplicar estilos CSS a través de la función st.markdown
+st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
 
 
 st.sidebar.markdown(""" <img class="work-connect-custom" src="http://localhost:8501/media/269d7b43cfaa846409b0ac9c6513fb40aaf87116f3f3c29392aef7b6.png"> """, unsafe_allow_html=True)
 
-# Aplicar estilos CSS a través de la función st.markdown
-st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
 
 
 
